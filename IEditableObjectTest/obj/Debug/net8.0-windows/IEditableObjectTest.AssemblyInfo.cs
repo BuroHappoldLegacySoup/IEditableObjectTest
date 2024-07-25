@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IEditableObjectTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0c0e9e493da01811e61817dddf29b5efae7e217")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+389ce8d930c7a178fad80ab5791d1b0364866ebc")]
 [assembly: System.Reflection.AssemblyProductAttribute("IEditableObjectTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IEditableObjectTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

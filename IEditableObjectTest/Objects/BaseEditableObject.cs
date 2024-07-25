@@ -39,6 +39,9 @@ namespace IEditableObjectTest.Objects
             if (!_isEditing)
                 return;
 
+            //We would use this in real application if deep cloning from _backup back to _object is required
+            //_object = Clone(_backup);
+            //Using this shallow clone just to demonstrate Edit/Cancel actions in the UI sincei it maintains UI binding
             foreach (PropertyInfo prop in typeof(T).GetProperties(BindingFlags.Public | BindingFlags.Instance))
             {
                 if (prop.CanRead && prop.CanWrite)
