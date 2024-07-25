@@ -1,6 +1,7 @@
 ﻿using IEditableObjectTest.Models;
 using System.ComponentModel;
 using System.Reflection;
+using System.Text.Json;
 
 namespace IEditableObjectTest.Objects
 {
@@ -17,7 +18,8 @@ namespace IEditableObjectTest.Objects
 
         public void BeginEdit()
         {
-            if (_isEditing) return;
+            if (_isEditing)
+                return;
 
             _backup = Clone(_object);
             _isEditing = true;
@@ -25,7 +27,8 @@ namespace IEditableObjectTest.Objects
 
         public void EndEdit()
         {
-            if (!_isEditing) return;
+            if (!_isEditing)
+                return;
 
             _backup = default;
             _isEditing = false;
@@ -33,7 +36,8 @@ namespace IEditableObjectTest.Objects
 
         public void CancelEdit()
         {
-            if (!_isEditing) return;
+            if (!_isEditing)
+                return;
 
             foreach (PropertyInfo prop in typeof(T).GetProperties(BindingFlags.Public | BindingFlags.Instance))
             {
@@ -50,15 +54,8 @@ namespace IEditableObjectTest.Objects
 
         private T Clone(T source)
         {
-            T? clone = (T)Activator.CreateInstance(typeof(T));
-            foreach (PropertyInfo prop in typeof(T).GetProperties(BindingFlags.Public | BindingFlags.Instance))
-            {
-                if (prop.CanRead && prop.CanWrite)
-                {
-                    object? value = prop.GetValue(source);
-                    prop.SetValue(clone, value);
-                }
-            }
+            string jsonString = JsonSerializer.Serialize(source);
+            T clone = JsonSerializer.Deserialize<T>(jsonString);
             return clone;
         }
     }

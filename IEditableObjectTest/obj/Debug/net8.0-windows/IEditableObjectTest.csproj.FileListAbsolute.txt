@@ -20,3 +20,13 @@ C:\Github\IEditableObjectTest\IEditableObjectTest\obj\Debug\net8.0-windows\IEdit
 C:\Github\IEditableObjectTest\IEditableObjectTest\obj\Debug\net8.0-windows\ref\IEditableObjectTest.dll
 C:\Github\IEditableObjectTest\IEditableObjectTest\obj\Debug\net8.0-windows\Views\EditPersonView.g.cs
 C:\Github\IEditableObjectTest\IEditableObjectTest\obj\Debug\net8.0-windows\Views\EditPersonView.baml
+C:\Github\IEditableObjectTest\IEditableObjectTest\obj\Debug\net8.0-windows\IEditableObjectTest.csproj.AssemblyReference.cache
+C:\Github\IEditableObjectTest\IEditableObjectTest\obj\Debug\net8.0-windows\IEditableObjectTest.sourcelink.json
+C:\Github\IEditableObjectTest\IEditableObjectTest\bin\Debug\net8.0-windows\BHoM_Engine.dll
+C:\Github\IEditableObjectTest\IEditableObjectTest\bin\Debug\net8.0-windows\BHoM.dll
+C:\Github\IEditableObjectTest\IEditableObjectTest\bin\Debug\net8.0-windows\Geometry_oM.dll
+C:\Github\IEditableObjectTest\IEditableObjectTest\bin\Debug\net8.0-windows\System.Drawing.Common.dll
+C:\Github\IEditableObjectTest\IEditableObjectTest\bin\Debug\net8.0-windows\DeepCloner.dll
+C:\Github\IEditableObjectTest\IEditableObjectTest\bin\Debug\net8.0-windows\Dimensional_oM.dll
+C:\Github\IEditableObjectTest\IEditableObjectTest\bin\Debug\net8.0-windows\Quantities_oM.dll
+C:\Github\IEditableObjectTest\IEditableObjectTest\obj\Debug\net8.0-windows\IEditabl.DAE8A81F.Up2Date
