@@ -54,6 +54,7 @@ namespace IEditableObjectTest.Objects
 
         private T Clone(T source)
         {
+            //Using Json to allow deep cloning objects implementing INotifyPropertyChanged. DeepClone() will fail.
             string jsonString = JsonSerializer.Serialize(source);
             T clone = JsonSerializer.Deserialize<T>(jsonString);
             return clone;
