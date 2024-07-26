@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Github\IEditableObjectTest\IEditableObjectTest\App.xaml
-2396335213
+21457120503
 
-14-1595558520
+16-1386723038
 199-2123315803
-MainWindow.xaml;Views\EditPersonView.xaml;
+MainWindow.xaml;Views\EditMappingItemView.xaml;
 
 False
 

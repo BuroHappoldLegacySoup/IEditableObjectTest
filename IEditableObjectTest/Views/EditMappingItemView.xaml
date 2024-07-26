@@ -1,0 +1,58 @@
+﻿<Window x:Class="IEditableObjectTest.Views.EditMappingItemView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IEditableObjectTest.Views"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterOwner"
+        Title="Edit Window"
+        Height="300"
+        Width="330">
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="45"/>
+      <RowDefinition />
+      <RowDefinition Height="45"/>
+    </Grid.RowDefinitions>
+
+    <TextBox Text="{Binding MappingItem.Name, UpdateSourceTrigger=PropertyChanged}"
+             Margin="5" />
+
+    <DataGrid Grid.Row="1"
+              ItemsSource="{Binding MappingItem.ParameterPairs}"
+              Background="#eeeeee"
+              AutoGenerateColumns="False"
+              AlternationCount="2"
+              ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+              ScrollViewer.CanContentScroll="False"
+              Margin="5">
+
+      <DataGrid.Columns>
+        <DataGridTextColumn Header="Source Parameter"
+                            Width="*"
+                            Binding="{Binding SourceParameterName, UpdateSourceTrigger=PropertyChanged}" />
+        <DataGridTextColumn Header="Target Parameter"
+                            Width="*"
+                            Binding="{Binding TargetParameterName, UpdateSourceTrigger=PropertyChanged}" />
+      </DataGrid.Columns>
+
+    </DataGrid>
+
+    <UniformGrid Grid.Row="2" Rows="1">
+      <Button x:Name="OkButton"
+              Content="OK"
+              Command="{Binding OkCommand}"
+              Click="OkButton_Click"
+              Margin="5"
+              IsDefault="True" />
+      <Button x:Name="CancelButton"
+              Content="Cancel"
+              Command="{Binding CancelCommand}"
+              Click="CancelButton_Click"
+              Margin="5"
+              IsCancel="True" />
+    </UniformGrid>
+    
+  </Grid>
+</Window>

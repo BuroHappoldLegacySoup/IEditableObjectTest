@@ -5,17 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:IEditableObjectTest"
         mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
         Title="MainWindow"
-        Height="450"
-        Width="352">
+        Height="550"
+        Width="330">
   <Grid>
     <Grid.RowDefinitions>
       <RowDefinition />
       <RowDefinition Height="50" />
     </Grid.RowDefinitions>
 
-    <ListView x:Name="PeopleListView"
-              ItemsSource="{Binding People}"
+    <ListView ItemsSource="{Binding MappingItems}"
               Background="#eeeeee"
               AlternationCount="2"
               ScrollViewer.HorizontalScrollBarVisibility="Disabled"
@@ -48,10 +48,10 @@
                             DisplayMemberBinding="{Binding Name}"
                             Width="200">
             </GridViewColumn>
-            <GridViewColumn Header="Age"
+            <!--<GridViewColumn Header="Age"
                             DisplayMemberBinding="{Binding Age}"
                             Width="100">
-            </GridViewColumn>
+            </GridViewColumn>-->
 
           </GridView.Columns>
         </GridView>

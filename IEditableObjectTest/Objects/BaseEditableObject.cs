@@ -39,9 +39,7 @@ namespace IEditableObjectTest.Objects
             if (!_isEditing)
                 return;
 
-            //We would use this in real application if deep cloning from _backup back to _object is required
-            //_object = Clone(_backup);
-            //Using this shallow clone just to demonstrate Edit/Cancel actions in the UI sincei it maintains UI binding
+            //To maintain UI binding in any parent window, do shallow clone using reflection instead of calling "_object = Clone(_backup)"
             foreach (PropertyInfo prop in typeof(T).GetProperties(BindingFlags.Public | BindingFlags.Instance))
             {
                 if (prop.CanRead && prop.CanWrite)
@@ -51,7 +49,8 @@ namespace IEditableObjectTest.Objects
                 }
             }
 
-            _backup = default;
+            //Recreate _backup here so that nested properties of _object are no loner attached to _backup despite the clone above being shallow, 
+            _backup = default;// (T)Activator.CreateInstance(typeof(T));
             _isEditing = false;
         }
 
@@ -62,5 +61,19 @@ namespace IEditableObjectTest.Objects
             T clone = JsonSerializer.Deserialize<T>(jsonString);
             return clone;
         }
+
+        //private T Clone(T source)
+        //{
+        //    if (source == null)
+        //        return default(T);
+
+        //    using (MemoryStream memoryStream = new MemoryStream())
+        //    {
+        //        DataContractSerializer serializer = new DataContractSerializer(typeof(T));
+        //        serializer.WriteObject(memoryStream, source);
+        //        memoryStream.Seek(0, SeekOrigin.Begin);
+        //        return (T)serializer.ReadObject(memoryStream);
+        //    }
+        //}
     }
 }

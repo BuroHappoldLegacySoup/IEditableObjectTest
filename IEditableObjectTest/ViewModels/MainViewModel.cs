@@ -5,21 +5,36 @@ namespace IEditableObjectTest.ViewModels
 {
     public class MainViewModel : BaseNotifyPropertyChanged
     {
-        private ObservableCollection<Person> _People;
+        private ObservableCollection<ParameterMappingItem> _mappingItems;
 
-        public ObservableCollection<Person> People
+        public ObservableCollection<ParameterMappingItem> MappingItems
         {
-            get { return _People; }
-            set { _People = value; }
+            get { return _mappingItems; }
+            set { _mappingItems = value; }
         }
 
         public MainViewModel()
         {
-            People = new ObservableCollection<Person>
+            MappingItems = new ObservableCollection<ParameterMappingItem>
             {
-                new Person { Name = "Adam", Age = 20 },
-                new Person { Name = "Benjamin", Age = 30 },
-                new Person { Name = "Christian", Age = 40 },
+                new ParameterMappingItem
+                {
+                    Name = "Adam",
+                    ParameterPairs = new List<ParameterPairItem>
+                    { new ParameterPairItem { SourceParameterName = "P1", TargetParameterName = "P2" }}
+                },
+                new ParameterMappingItem
+                {
+                    Name = "Benjamin",
+                    ParameterPairs = new List<ParameterPairItem>
+                    { new ParameterPairItem { SourceParameterName = "P1", TargetParameterName = "P2" }}
+                },
+                new ParameterMappingItem
+                {
+                    Name = "Christian",
+                    ParameterPairs = new List<ParameterPairItem>
+                    { new ParameterPairItem { SourceParameterName = "P1", TargetParameterName = "P2" }}
+                },
             };
         }
     }
