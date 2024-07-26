@@ -19,21 +19,21 @@ namespace IEditableObjectTest.ViewModels
             {
                 new ParameterMappingItem
                 {
-                    Name = "Adam",
+                    Name = "Mapping 1",
                     ParameterPairs = new List<ParameterPairItem>
-                    { new ParameterPairItem { SourceParameterName = "P1", TargetParameterName = "P2" }}
+                    { new ParameterPairItem { SourceParameterName = "Parameter 1", TargetParameterName = "Parameter 2" }}
                 },
                 new ParameterMappingItem
                 {
-                    Name = "Benjamin",
+                    Name = "Mapping 2",
                     ParameterPairs = new List<ParameterPairItem>
-                    { new ParameterPairItem { SourceParameterName = "P1", TargetParameterName = "P2" }}
+                    { new ParameterPairItem { SourceParameterName = "Parameter 1", TargetParameterName = "Parameter 2" }}
                 },
                 new ParameterMappingItem
                 {
-                    Name = "Christian",
+                    Name = "Mapping 3",
                     ParameterPairs = new List<ParameterPairItem>
-                    { new ParameterPairItem { SourceParameterName = "P1", TargetParameterName = "P2" }}
+                    { new ParameterPairItem { SourceParameterName = "Parameter 1", TargetParameterName = "Parameter 2" }}
                 },
             };
         }
