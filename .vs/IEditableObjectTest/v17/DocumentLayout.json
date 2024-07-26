@@ -3,8 +3,48 @@
   "WorkspaceRootPath": "C:\\Github\\IEditableObjectTest\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|c:\\github\\ieditableobjecttest\\ieditableobjecttest\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|solutionrelative:ieditableobjecttest\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|c:\\github\\ieditableobjecttest\\ieditableobjecttest\\objects\\baseeditableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|solutionrelative:ieditableobjecttest\\objects\\baseeditableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|c:\\github\\ieditableobjecttest\\ieditableobjecttest\\models\\parametermappingitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|solutionrelative:ieditableobjecttest\\models\\parametermappingitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|c:\\github\\ieditableobjecttest\\ieditableobjecttest\\views\\editmappingitemview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|solutionrelative:ieditableobjecttest\\views\\editmappingitemview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|c:\\github\\ieditableobjecttest\\ieditableobjecttest\\views\\editmappingitemview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|solutionrelative:ieditableobjecttest\\views\\editmappingitemview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|c:\\github\\ieditableobjecttest\\ieditableobjecttest\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|solutionrelative:ieditableobjecttest\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|c:\\github\\ieditableobjecttest\\ieditableobjecttest\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|solutionrelative:ieditableobjecttest\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|c:\\github\\ieditableobjecttest\\ieditableobjecttest\\viewmodels\\editmappingitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|solutionrelative:ieditableobjecttest\\viewmodels\\editmappingitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|c:\\github\\ieditableobjecttest\\ieditableobjecttest\\objects\\relaycommand .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|solutionrelative:ieditableobjecttest\\objects\\relaycommand .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|c:\\github\\ieditableobjecttest\\ieditableobjecttest\\models\\parameterpairitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|solutionrelative:ieditableobjecttest\\models\\parameterpairitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|c:\\github\\ieditableobjecttest\\ieditableobjecttest\\models\\mappingitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|solutionrelative:ieditableobjecttest\\models\\mappingitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|c:\\github\\ieditableobjecttest\\ieditableobjecttest\\models\\baseobservableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,40 +55,8 @@
       "RelativeMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|solutionrelative:ieditableobjecttest\\models\\basenotifypropertychanged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|c:\\github\\ieditableobjecttest\\ieditableobjecttest\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|solutionrelative:ieditableobjecttest\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|c:\\github\\ieditableobjecttest\\ieditableobjecttest\\viewmodels\\editpersonviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|solutionrelative:ieditableobjecttest\\viewmodels\\editpersonviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|c:\\github\\ieditableobjecttest\\ieditableobjecttest\\ieditableobjecttest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|solutionrelative:ieditableobjecttest\\ieditableobjecttest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|c:\\github\\ieditableobjecttest\\ieditableobjecttest\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|solutionrelative:ieditableobjecttest\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|c:\\github\\ieditableobjecttest\\ieditableobjecttest\\views\\editpersonview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|solutionrelative:ieditableobjecttest\\views\\editpersonview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|c:\\github\\ieditableobjecttest\\ieditableobjecttest\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|solutionrelative:ieditableobjecttest\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|c:\\github\\ieditableobjecttest\\ieditableobjecttest\\views\\editpersonview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|solutionrelative:ieditableobjecttest\\views\\editpersonview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|c:\\github\\ieditableobjecttest\\ieditableobjecttest\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|solutionrelative:ieditableobjecttest\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|c:\\github\\ieditableobjecttest\\ieditableobjecttest\\objects\\relaycommand .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|solutionrelative:ieditableobjecttest\\objects\\relaycommand .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7B0ABF2-8605-4E8B-8130-2E89ECA2DEEB}|IEditableObjectTest\\IEditableObjectTest.csproj|c:\\github\\ieditableobjecttest\\ieditableobjecttest\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -65,7 +73,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -85,78 +93,160 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "BaseEditableObject.cs",
               "DocumentMoniker": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\Objects\\BaseEditableObject.cs",
               "RelativeDocumentMoniker": "IEditableObjectTest\\Objects\\BaseEditableObject.cs",
               "ToolTip": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\Objects\\BaseEditableObject.cs",
               "RelativeToolTip": "IEditableObjectTest\\Objects\\BaseEditableObject.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAowCkAAABsAAAA",
+              "ViewState": "AQIAACkAAAAAAAAAAAAIwDsAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-19T15:38:34.883Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BaseObservableItem.cs",
-              "DocumentMoniker": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\Models\\BaseObservableItem.cs",
-              "RelativeDocumentMoniker": "IEditableObjectTest\\Models\\BaseObservableItem.cs",
-              "ToolTip": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\Models\\BaseObservableItem.cs",
-              "RelativeToolTip": "IEditableObjectTest\\Models\\BaseObservableItem.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAvwC8AAAAQAAAA",
+              "DocumentIndex": 8,
+              "Title": "RelayCommand .cs",
+              "DocumentMoniker": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\Objects\\RelayCommand .cs",
+              "RelativeDocumentMoniker": "IEditableObjectTest\\Objects\\RelayCommand .cs",
+              "ToolTip": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\Objects\\RelayCommand .cs",
+              "RelativeToolTip": "IEditableObjectTest\\Objects\\RelayCommand .cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T15:32:31.304Z"
+              "WhenOpened": "2024-07-19T15:35:42.984Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
+              "Title": "EditMappingItemViewModel.cs",
+              "DocumentMoniker": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\ViewModels\\EditMappingItemViewModel.cs",
+              "RelativeDocumentMoniker": "IEditableObjectTest\\ViewModels\\EditMappingItemViewModel.cs",
+              "ToolTip": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\ViewModels\\EditMappingItemViewModel.cs",
+              "RelativeToolTip": "IEditableObjectTest\\ViewModels\\EditMappingItemViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T15:39:50.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "IEditableObjectTest\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "IEditableObjectTest\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T16:06:13.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "IEditableObjectTest\\MainWindow.xaml",
+              "ToolTip": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\MainWindow.xaml*",
+              "RelativeToolTip": "IEditableObjectTest\\MainWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-19T15:31:43.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "IEditableObjectTest\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\MainWindow.xaml.cs",
               "RelativeToolTip": "IEditableObjectTest\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAmwBsAAAAJAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAmwBgAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T15:31:42.893Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EditPersonView.xaml",
-              "DocumentMoniker": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\Views\\EditPersonView.xaml",
-              "RelativeDocumentMoniker": "IEditableObjectTest\\Views\\EditPersonView.xaml",
-              "ToolTip": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\Views\\EditPersonView.xaml",
-              "RelativeToolTip": "IEditableObjectTest\\Views\\EditPersonView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-19T16:26:14.829Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "IEditableObjectTest\\MainWindow.xaml",
-              "ToolTip": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\MainWindow.xaml",
-              "RelativeToolTip": "IEditableObjectTest\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-19T15:31:43.024Z"
+              "WhenOpened": "2024-07-19T15:31:42.893Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "EditPersonViewModel.cs",
-              "DocumentMoniker": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\ViewModels\\EditPersonViewModel.cs",
-              "RelativeDocumentMoniker": "IEditableObjectTest\\ViewModels\\EditPersonViewModel.cs",
-              "ToolTip": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\ViewModels\\EditPersonViewModel.cs",
-              "RelativeToolTip": "IEditableObjectTest\\ViewModels\\EditPersonViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAMAAAA",
+              "Title": "EditMappingItemView.xaml.cs",
+              "DocumentMoniker": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\Views\\EditMappingItemView.xaml.cs",
+              "RelativeDocumentMoniker": "IEditableObjectTest\\Views\\EditMappingItemView.xaml.cs",
+              "ToolTip": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\Views\\EditMappingItemView.xaml.cs",
+              "RelativeToolTip": "IEditableObjectTest\\Views\\EditMappingItemView.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T15:39:50.459Z"
+              "WhenOpened": "2024-07-19T15:43:51.541Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "ParameterMappingItem.cs",
+              "DocumentMoniker": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\Models\\ParameterMappingItem.cs",
+              "RelativeDocumentMoniker": "IEditableObjectTest\\Models\\ParameterMappingItem.cs",
+              "ToolTip": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\Models\\ParameterMappingItem.cs",
+              "RelativeToolTip": "IEditableObjectTest\\Models\\ParameterMappingItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T13:04:44.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditMappingItemView.xaml",
+              "DocumentMoniker": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\Views\\EditMappingItemView.xaml",
+              "RelativeDocumentMoniker": "IEditableObjectTest\\Views\\EditMappingItemView.xaml",
+              "ToolTip": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\Views\\EditMappingItemView.xaml",
+              "RelativeToolTip": "IEditableObjectTest\\Views\\EditMappingItemView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-26T13:23:02.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ParameterPairItem.cs",
+              "DocumentMoniker": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\Models\\ParameterPairItem.cs",
+              "RelativeDocumentMoniker": "IEditableObjectTest\\Models\\ParameterPairItem.cs",
+              "ToolTip": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\Models\\ParameterPairItem.cs",
+              "RelativeToolTip": "IEditableObjectTest\\Models\\ParameterPairItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T13:05:44.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MappingItem.cs",
+              "DocumentMoniker": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\Models\\MappingItem.cs",
+              "RelativeDocumentMoniker": "IEditableObjectTest\\Models\\MappingItem.cs",
+              "ToolTip": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\Models\\MappingItem.cs",
+              "RelativeToolTip": "IEditableObjectTest\\Models\\MappingItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T13:06:07.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BaseObservableItem.cs",
+              "DocumentMoniker": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\Models\\BaseObservableItem.cs",
+              "RelativeDocumentMoniker": "IEditableObjectTest\\Models\\BaseObservableItem.cs",
+              "ToolTip": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\Models\\BaseObservableItem.cs",
+              "RelativeToolTip": "IEditableObjectTest\\Models\\BaseObservableItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T15:32:31.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "IEditableObjectTest.csproj",
               "DocumentMoniker": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\IEditableObjectTest.csproj",
               "RelativeDocumentMoniker": "IEditableObjectTest\\IEditableObjectTest.csproj",
@@ -168,19 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Person.cs",
-              "DocumentMoniker": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\Models\\Person.cs",
-              "RelativeDocumentMoniker": "IEditableObjectTest\\Models\\Person.cs",
-              "ToolTip": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\Models\\Person.cs",
-              "RelativeToolTip": "IEditableObjectTest\\Models\\Person.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T15:40:44.157Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "BaseNotifyPropertyChanged.cs",
               "DocumentMoniker": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\Models\\BaseNotifyPropertyChanged.cs",
               "RelativeDocumentMoniker": "IEditableObjectTest\\Models\\BaseNotifyPropertyChanged.cs",
@@ -192,43 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\ViewModels\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "IEditableObjectTest\\ViewModels\\MainViewModel.cs",
-              "ToolTip": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\ViewModels\\MainViewModel.cs",
-              "RelativeToolTip": "IEditableObjectTest\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T16:06:13.726Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RelayCommand .cs",
-              "DocumentMoniker": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\Objects\\RelayCommand .cs",
-              "RelativeDocumentMoniker": "IEditableObjectTest\\Objects\\RelayCommand .cs",
-              "ToolTip": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\Objects\\RelayCommand .cs",
-              "RelativeToolTip": "IEditableObjectTest\\Objects\\RelayCommand .cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T15:35:42.984Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EditPersonView.xaml.cs",
-              "DocumentMoniker": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\Views\\EditPersonView.xaml.cs",
-              "RelativeDocumentMoniker": "IEditableObjectTest\\Views\\EditPersonView.xaml.cs",
-              "ToolTip": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\Views\\EditPersonView.xaml.cs",
-              "RelativeToolTip": "IEditableObjectTest\\Views\\EditPersonView.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T15:43:51.541Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "ResourcePart.cs",
               "DocumentMoniker": "C:\\Users\\vle\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\vle\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
@@ -241,14 +283,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\App.xaml",
               "RelativeDocumentMoniker": "IEditableObjectTest\\App.xaml",
               "ToolTip": "C:\\Github\\IEditableObjectTest\\IEditableObjectTest\\App.xaml",
               "RelativeToolTip": "IEditableObjectTest\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-19T15:49:32.15Z"
+              "WhenOpened": "2024-07-19T15:49:32.15Z",
+              "EditorCaption": ""
             }
           ]
         }

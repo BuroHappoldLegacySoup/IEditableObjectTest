@@ -4,14 +4,14 @@ using System.Windows;
 
 namespace IEditableObjectTest.Views
 {
-    public partial class EditPersonView : Window
+    public partial class EditMappingItemView : Window
     {
-        private EditPersonViewModel m_ViewModel;
+        private EditMappingItemViewModel m_ViewModel;
 
-        public EditPersonView(Person person)
+        public EditMappingItemView(ParameterMappingItem item)
         {
             InitializeComponent();
-            m_ViewModel = new EditPersonViewModel(person);
+            m_ViewModel = new EditMappingItemViewModel(item);
             DataContext = m_ViewModel;
         }
 

@@ -18,8 +18,6 @@ C:\Github\IEditableObjectTest\IEditableObjectTest\obj\Debug\net8.0-windows\refin
 C:\Github\IEditableObjectTest\IEditableObjectTest\obj\Debug\net8.0-windows\IEditableObjectTest.pdb
 C:\Github\IEditableObjectTest\IEditableObjectTest\obj\Debug\net8.0-windows\IEditableObjectTest.genruntimeconfig.cache
 C:\Github\IEditableObjectTest\IEditableObjectTest\obj\Debug\net8.0-windows\ref\IEditableObjectTest.dll
-C:\Github\IEditableObjectTest\IEditableObjectTest\obj\Debug\net8.0-windows\Views\EditPersonView.g.cs
-C:\Github\IEditableObjectTest\IEditableObjectTest\obj\Debug\net8.0-windows\Views\EditPersonView.baml
 C:\Github\IEditableObjectTest\IEditableObjectTest\obj\Debug\net8.0-windows\IEditableObjectTest.csproj.AssemblyReference.cache
 C:\Github\IEditableObjectTest\IEditableObjectTest\obj\Debug\net8.0-windows\IEditableObjectTest.sourcelink.json
 C:\Github\IEditableObjectTest\IEditableObjectTest\bin\Debug\net8.0-windows\BHoM_Engine.dll
@@ -30,3 +28,5 @@ C:\Github\IEditableObjectTest\IEditableObjectTest\bin\Debug\net8.0-windows\DeepC
 C:\Github\IEditableObjectTest\IEditableObjectTest\bin\Debug\net8.0-windows\Dimensional_oM.dll
 C:\Github\IEditableObjectTest\IEditableObjectTest\bin\Debug\net8.0-windows\Quantities_oM.dll
 C:\Github\IEditableObjectTest\IEditableObjectTest\obj\Debug\net8.0-windows\IEditabl.DAE8A81F.Up2Date
+C:\Github\IEditableObjectTest\IEditableObjectTest\obj\Debug\net8.0-windows\Views\EditMappingItemView.g.cs
+C:\Github\IEditableObjectTest\IEditableObjectTest\obj\Debug\net8.0-windows\Views\EditMappingItemView.baml

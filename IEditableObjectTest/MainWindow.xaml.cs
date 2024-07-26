@@ -18,11 +18,11 @@ namespace IEditableObjectTest
 
         private void EditButton_Click(object sender, RoutedEventArgs e)
         {
-            Person? person = m_ViewModel.People.FirstOrDefault(x => x.IsSelected);
-            if (person == null)
+            ParameterMappingItem? item = m_ViewModel.MappingItems.FirstOrDefault(x => x.IsSelected);
+            if (item == null)
                 return;
 
-            EditPersonView editWindow = new EditPersonView(person);
+            EditMappingItemView editWindow = new EditMappingItemView(item);
             editWindow.Owner = this;
             editWindow.ShowDialog();
         }
