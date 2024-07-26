@@ -8,3 +8,7 @@ Looks like using the `BaseEditableObject` is the cleanest way. The idea is to wr
 You can run the app to see all this in action.
 
 ![BaseEditableObject](https://github.com/user-attachments/assets/c3e206c9-a22b-4358-9c49-dac2a43e444e)
+
+Second iteration to show editing/cancelling nested properties:
+
+![Untitled Project](https://github.com/user-attachments/assets/75fe72ce-08a2-47e8-858a-1057da76b4cc)
