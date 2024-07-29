@@ -1,6 +1,4 @@
-﻿using System.ComponentModel;
-
-namespace IEditableObjectTest.Models
+﻿namespace IEditableObjectTest.Models
 {
     public class BaseObservableItem : BaseNotifyPropertyChanged
     {
@@ -10,7 +8,6 @@ namespace IEditableObjectTest.Models
 
         private bool m_IsEnabled;
 
-        [Description("Whether or not this item has been selected in the UI.")]
         public bool IsSelected
         {
             get
@@ -23,7 +20,6 @@ namespace IEditableObjectTest.Models
             }
         }
 
-        [Description("Whether or not this item has been checked in the UI.")]
         public bool IsChecked
         {
             get
@@ -36,7 +32,6 @@ namespace IEditableObjectTest.Models
             }
         }
 
-        [Description("Whether or not this item is enabled in the UI.")]
         public bool IsEnabled
         {
             get
