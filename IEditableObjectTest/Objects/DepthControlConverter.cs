@@ -1,4 +1,5 @@
-﻿using System.Text.Json;
+﻿using System;
+using System.Text.Json;
 using System.Text.Json.Serialization;
 
 namespace IEditableObjectTest.Objects
@@ -35,7 +36,7 @@ namespace IEditableObjectTest.Objects
 
             foreach (System.Reflection.PropertyInfo property in type.GetProperties())
             {
-                object? propertyValue = property.GetValue(value);
+                object propertyValue = property.GetValue(value);
                 writer.WritePropertyName(property.Name);
                 Write(writer, propertyValue, options, currentDepth + 1);
             }

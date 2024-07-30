@@ -1,6 +1,7 @@
 ﻿using IEditableObjectTest.Models;
 using IEditableObjectTest.ViewModels;
 using IEditableObjectTest.Views;
+using System.Linq;
 using System.Windows;
 
 namespace IEditableObjectTest
@@ -18,7 +19,7 @@ namespace IEditableObjectTest
 
         private void EditButton_Click(object sender, RoutedEventArgs e)
         {
-            ParameterMappingItem? item = m_ViewModel.MappingItems.FirstOrDefault(x => x.IsSelected);
+            ParameterMappingItem item = m_ViewModel.MappingItems.FirstOrDefault(x => x.IsSelected);
             if (item == null)
                 return;
 

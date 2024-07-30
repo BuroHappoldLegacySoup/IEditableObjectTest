@@ -1,6 +1,9 @@
 ﻿using IEditableObjectTest.Models;
+using System;
 using System.ComponentModel;
+using System.IO;
 using System.Reflection;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Text.Json;
 
 namespace IEditableObjectTest.Objects
@@ -21,7 +24,7 @@ namespace IEditableObjectTest.Objects
             if (_isEditing)
                 return;
 
-            _backup = Clone(_object);
+            _backup = JsonClone(_object);
             _isEditing = true;
         }
 
@@ -44,7 +47,7 @@ namespace IEditableObjectTest.Objects
             {
                 if (prop.CanRead && prop.CanWrite)
                 {
-                    object? value = prop.GetValue(_backup);
+                    object value = prop.GetValue(_backup);
                     prop.SetValue(_object, value);
                 }
             }
@@ -54,15 +57,32 @@ namespace IEditableObjectTest.Objects
             _isEditing = false;
         }
 
-        private T Clone(T source)
+        private T JsonClone(T source) //works with .Net all versions 
         {
-            //Using Json to allow deep cloning objects implementing INotifyPropertyChanged. DeepClone() will fail.
+            //Deep cloning objects implementing INotifyPropertyChanged and contains events. DeepClone() will fail.
             string jsonString = JsonSerializer.Serialize(source);
             T clone = JsonSerializer.Deserialize<T>(jsonString);
             return clone;
         }
 
-        //private T Clone(T source)
+        //works with .Net Framework only
+        //BaseObservableItem needs the [field:NonSerialized] attribute added to public event PropertyChangedEventHandler PropertyChanged;
+        //Then classes to be editable needs to have the [Serializable] attribute added once at the class name level.
+        private T BinaryFormatterClone(T source)
+        {
+            //Deep cloning objects implementing INotifyPropertyChanged and contains events. DeepClone() will fail.
+            using (MemoryStream ms = new MemoryStream())
+            {
+                BinaryFormatter formatter = new BinaryFormatter();
+                formatter.Serialize(ms, source);
+                ms.Position = 0;
+
+                return (T)formatter.Deserialize(ms);
+            }
+        }
+
+        //Requires too many attributes on classes
+        //private T DataContractClone(T source)
         //{
         //    if (source == null)
         //        return default(T);
@@ -75,5 +95,21 @@ namespace IEditableObjectTest.Objects
         //        return (T)serializer.ReadObject(memoryStream);
         //    }
         //}
+
+        private T ShallowClone(T source)
+        {
+            T clone = (T)Activator.CreateInstance(typeof(T));
+
+            foreach (PropertyInfo prop in typeof(T).GetProperties(BindingFlags.Public | BindingFlags.Instance))
+            {
+                if (prop.CanRead && prop.CanWrite)
+                {
+                    object value = prop.GetValue(source);
+                    prop.SetValue(clone, value);
+                }
+            }
+
+            return clone;
+        }
     }
 }

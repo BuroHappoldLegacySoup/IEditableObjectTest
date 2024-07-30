@@ -1,4 +1,6 @@
-﻿namespace IEditableObjectTest.Models
+﻿using System.Collections.Generic;
+
+namespace IEditableObjectTest.Models
 {
     public class ParameterMappingItem : MappingItem
     {
